@@ -1,0 +1,43 @@
+{
+  "users": {
+    "standard": {
+      "username": "standard_user",
+      "password": "secret_sauce"
+    }
+  },
+  "orders": [
+    {
+      "testId": "TC01",
+      "description": "Place an order for Sauce Labs Backpack",
+      "userKey": "standard",
+      "customer": {
+        "firstName": "John",
+        "lastName": "Doe",
+        "postalCode": "10001"
+      },
+      "product": "Sauce Labs Backpack"
+    },
+    {
+      "testId": "TC02",
+      "description": "Place an order for Sauce Labs Bike Light",
+      "userKey": "standard",
+      "customer": {
+        "firstName": "Jane",
+        "lastName": "Smith",
+        "postalCode": "94105"
+      },
+      "product": "Sauce Labs Bike Light"
+    },
+    {
+      "testId": "TC03",
+      "description": "Place an order for Sauce Labs Bolt T-Shirt",
+      "userKey": "standard",
+      "customer": {
+        "firstName": "Alex",
+        "lastName": "Taylor",
+        "postalCode": "60601"
+      },
+      "product": "Sauce Labs Bolt T-Shirt"
+    }
+  ]
+}

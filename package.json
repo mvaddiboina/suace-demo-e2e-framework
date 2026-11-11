@@ -1,0 +1,27 @@
+{
+  "name": "sauce_demo_e2e_framework",
+  "version": "1.0.0",
+  "description": "Playwright + TypeScript E2E framework for saucedemo.com (Page Object Model)",
+  "scripts": {
+    "test": "playwright test",
+    "test:qa": "cross-env ENV=qa playwright test",
+    "test:stg": "cross-env ENV=stg playwright test",
+    "test:prod": "cross-env ENV=prod playwright test",
+    "test:chromium": "playwright test --project=chromium",
+    "test:headed": "playwright test --project=chromium --headed",
+    "test:debug": "playwright test --project=chromium --debug",
+    "typecheck": "tsc --noEmit",
+    "report": "playwright show-report reports/html-report"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.64.1",
+    "@types/node": "^26.6.6",
+    "cross-env": "^10.1.0",
+    "dotenv": "^18.0.9",
+    "typescript": "^7.0.2"
+  }
+}

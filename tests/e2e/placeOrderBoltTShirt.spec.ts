@@ -1,7 +1,7 @@
 import { test } from "../../src/fixtures/pageFixtures";
 import { getOrder, getUser } from "../../src/utils/testDataReader";
 
-const order = getOrder("TC04");
+const order = getOrder("TC03");
 const user = getUser(order.userKey);
 
 test(`TC03 - place an order for ${order.product}`, async ({
